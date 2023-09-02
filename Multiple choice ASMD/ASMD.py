@@ -35,6 +35,13 @@ while True:
     if choice in ('1', '2', '3', '4'):
         print(f"\n\nThe result of {operation} between {num1} and {num2} is equal to {result}\n\n")
 
+    odd_even = input("Do you want to know if the Result is an Odd or Even Integer? [yes/no]: ")
+    if odd_even == "yes":
+        if result % 2 == 0:
+            print("The", result  ,"is an Even Integer. \n")
+        else:
+            print ("The", result ,"is an odd integer. \n\n")
+
     another_calculation = input("Do you want to calculate using a different operation? (yes/no): ").lower()
     if another_calculation != 'yes':
         break  # Exit the program if the user chooses to quit
