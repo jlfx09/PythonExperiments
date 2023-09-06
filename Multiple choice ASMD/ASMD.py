@@ -30,8 +30,11 @@ while True:
         else:
             result = num1 / num2
             operation = "Division"
+<<<<<<< HEAD
+=======
             break
     #If the user choice is not the ones within the if else arguments, print out else which says Invalid Choice and make the user choose another operation.
+>>>>>>> 45b2c45bb765c6cca6d7b23986c85e540bcceb4c
     else:
         print("Invalid Choice, please choose a valid option. ")
 
@@ -44,10 +47,14 @@ while True:
     #If the user prompt is yes, proceed with showing results whether the result is odd or even.
     if odd_even == "yes":
         if result % 2 == 0:
-            print("The", result  ,"is an Even Integer. \n")
+            print("The result ", result  ,"is an Even Integer. \n")
         else:
+<<<<<<< HEAD
+            print ("The result ", result ,"is an odd integer. \n\n")
+=======
             print ("The", result ,"is an odd integer. \n\n")
 # If user chooses no, end the program.
+>>>>>>> 45b2c45bb765c6cca6d7b23986c85e540bcceb4c
 
 #asks the user if they want to conduct another operation based on the integers previously given.
     another_calculation = input("Do you want to calculate using a different operation? (yes/no): ").lower()
